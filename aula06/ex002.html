@@ -15,12 +15,18 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        var n1 = 2
-        var n2 = 4
+    
+        var n1 = Number.parseFloat(window.prompt("Digite um numero: ") )   //string
+        var n2 = Number.parseFloat(window.prompt("Digite outro numero: ")) //string
+
+        var soma = n1+n2
+
+        window.alert(`A soma entre ${n1} e ${n2} é igual a: ${soma}`)
         
-        alert("Ora Ora Ora")
-        confirm("Está gostando de Javascript") 
-        prompt("Escreva um numero :") 
+
+        // (number + number) para adição
+        // (string + string) para concatenação
+
         
     </script>
 </body>
